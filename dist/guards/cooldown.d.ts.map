@@ -1,0 +1,1 @@
+{"version":3,"file":"cooldown.d.ts","sourceRoot":"","sources":["../../src/guards/cooldown.ts"],"names":[],"mappings":"AAKA,wBAAgB,cAAc,CAAC,UAAU,EAAE,MAAM,GAAG;IAAE,WAAW,EAAE,OAAO,CAAC;IAAC,iBAAiB,EAAE,MAAM,CAAA;CAAE,CAWtG;AAED,wBAAgB,YAAY,CAAC,UAAU,EAAE,MAAM,GAAG,IAAI,CAErD"}

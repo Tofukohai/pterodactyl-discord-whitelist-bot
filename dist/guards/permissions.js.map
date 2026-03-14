@@ -1,0 +1,1 @@
+{"version":3,"file":"permissions.js","sourceRoot":"","sources":["../../src/guards/permissions.ts"],"names":[],"mappings":";;AAGA,4BAIC;AAND,4CAAsC;AAEtC,SAAgB,QAAQ,CAAC,WAAwC;IAC/D,MAAM,MAAM,GAAG,WAAW,CAAC,MAA4B,CAAC;IACxD,IAAI,CAAC,MAAM;QAAE,OAAO,KAAK,CAAC;IAC1B,OAAO,MAAM,CAAC,KAAK,CAAC,KAAK,CAAC,GAAG,CAAC,kBAAM,CAAC,OAAO,CAAC,aAAa,CAAC,CAAC;AAC9D,CAAC"}
