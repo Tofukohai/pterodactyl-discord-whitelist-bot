@@ -1,0 +1,22 @@
+{
+  "name": "mc-whitelist-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Minecraft server whitelisting via Pterodactyl API",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "postinstall": "tsc",
+    "deploy": "tsx src/deploy-commands.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2"
+  }
+}
