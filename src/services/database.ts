@@ -1,7 +1,7 @@
 import { DatabaseSync } from "node:sqlite";
 import path from "path";
 
-const DB_PATH = process.env.DB_PATH ?? path.join(process.cwd(), "whitelist.db");
+const DB_PATH = process.env.DB_PATH ?? path.join(__dirname, "../../whitelist.db");
 
 const db = new DatabaseSync(DB_PATH);
 
