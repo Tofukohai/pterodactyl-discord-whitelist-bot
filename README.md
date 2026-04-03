@@ -188,7 +188,7 @@ npm start
 The bot is designed to run on Pterodactyl itself using a Node.js git-clone egg (e.g. from [parkervcp/eggs](https://github.com/parkervcp/eggs)).
 
 **Key points:**
-- Push your code to a **public** GitHub repo — there are no secrets in the repository (`.env` is gitignored)
+- Push your code to a **public** GitHub repo — please do not push your secrets ^^ (`.env` is gitignored)
 - Set all environment variables as **Startup Variables** in the Pterodactyl panel — they are injected directly into `process.env`, no `.env` file needed on the server
 - `npm install` automatically compiles TypeScript via the `postinstall` script
 - Set the startup file to `dist/index.js`
@@ -218,8 +218,3 @@ Entries are **soft-deleted** (the `removed_at` column is set). History is preser
 ## Security Notes
 
 - Minecraft usernames are validated against `^[a-zA-Z0-9_]{3,16}$` before anything else — no unsanitised input reaches Pterodactyl
-- Commands only respond in the configured channel — silently denied elsewhere
-- Per-user cooldown prevents API spam
-- Ephemeral replies prevent username leakage in public channels
-- All admin actions require the configured role — not just any server admin permission
-- Error messages never expose API URLs, keys, or stack traces to users
